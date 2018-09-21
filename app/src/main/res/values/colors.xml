@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fc1929</color>
+    <color name="colorPrimaryDark">#1a4351</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <!--<color name="red_color_primary">#ff445c</color>-->
+    <color name="text_primary_grey">#5c5c5c</color>
+    <color name="text_grey_variant">#515151</color>
+    <color name="transparentfull">#00000000</color>
+    <color name="madiroty_color">#ff0000</color>
+
+
+    <!--<color name="colorPrimary">#914a8c</color>-->
+    <!--<color name="secondaryColor">#914a8c</color>-->
+
+    <!--<color name="colorPrimaryDark">#e73A8c</color>-->
+
+    <color name="secondaryColor">#1a4351</color>
+    <!--<color name="colorPrimary">#036F6F</color>-->
+    <color name="gery_2">#585a5b</color>
+    <color name="white3">#f6f6f7</color>
+    <color name="black">#000000</color>
+
+    <color name="divider_moderatelight_grey">#dbdbdb</color>
+    <color name="textDeselected">#9b9b9b</color>
+    <color name="border_grey_color">#AFAFAF</color>
+
+    <color name="light_dark_grey">#cfcfcf</color>
+
+    <color name="text_light_grey">#989898</color>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bottom_layout_parent"
+    android:layout_alignParentBottom="true"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/shadow_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/footer_shadow_height"
+        android:layout_gravity="top"
+        android:background="@drawable/shape_shadow_up"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/white_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <example.jayakumar.deliberr.customviews.F1TextViewBold
+            android:id="@+id/bottom_btn_proceed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/footer_button_margin"
+            android:layout_marginLeft="@dimen/footer_button_margin"
+            android:layout_marginRight="@dimen/footer_button_margin"
+            android:layout_marginTop="@dimen/footer_button_margin"
+            android:background="@drawable/button_fill"
+            android:gravity="center"
+            android:padding="15dp"
+            android:textAllCaps="false"
+            android:text="Continue"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:paddingTop="10dp">
+
+                    <ImageView
+                        android:id="@+id/back_iv"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_arrow_back" />
+
+                    <example.jayakumar.deliberr.customviews.F1TextViewBold
+                        android:id="@+id/mission_name_tv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+
+                        android:text="Name"
+                        android:textColor="@color/secondaryColor"
+                        android:textSize="@dimen/text_largex" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:alpha="0.5"
+                android:background="@color/divider_moderatelight_grey" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="0dp">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginTop="0dp"
+                        android:text="Launch Details"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_medium" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text="Flight Number"
+                                android:textAllCaps="true"
+                                android:textSize="@dimen/text_smallx" />
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:id="@+id/flight_number_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/text_small" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text="Launch Status"
+                                android:textAllCaps="true"
+                                android:textSize="@dimen/text_smallx" />
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:id="@+id/launch_status_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textAllCaps="true"
+                                android:textSize="@dimen/text_small" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="top"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text="Location"
+                                android:textAllCaps="true"
+                                android:textSize="@dimen/text_smallx" />
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:id="@+id/location_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/text_small" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text="Launch Date"
+                                android:textAllCaps="true"
+                                android:textSize="@dimen/text_smallx" />
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:id="@+id/launch_date_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textAllCaps="true"
+                                android:textSize="@dimen/text_small" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="top"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text="Customer"
+                                android:textAllCaps="true"
+                                android:textSize="@dimen/text_smallx" />
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:id="@+id/customer_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/text_small" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text="Manufacturer"
+                                android:textAllCaps="true"
+                                android:textSize="@dimen/text_smallx" />
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:id="@+id/manuf_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textAllCaps="true"
+                                android:textSize="@dimen/text_small" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="top"
+                        android:orientation="vertical"
+                        >
+
+                        <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_marginTop="0dp"
+                            android:text="Ddescription"
+                            android:textAllCaps="true"
+                            android:textSize="@dimen/text_smallx" />
+
+                        <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                            android:id="@+id/description_tv"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="7dp"
+                            android:layout_marginTop="0dp"
+                            android:text=""
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/text_small" />
+
+
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:alpha="0.5"
+                    android:background="@color/divider_moderatelight_grey" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginBottom="20dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="7dp"
+                        android:layout_marginTop="0dp"
+                        android:text="Rocket Details"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/text_medium" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="top"
+                        android:orientation="horizontal"
+                        android:weightSum="2">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text="ROcket NAme"
+                                android:textAllCaps="true"
+                                android:textSize="@dimen/text_smallx" />
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:id="@+id/rocket_name_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/text_small" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="vertical">
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text="Rocket Type"
+                                android:textAllCaps="true"
+                                android:textSize="@dimen/text_smallx" />
+
+                            <example.jayakumar.deliberr.customviews.F1TextViewMedium
+                                android:id="@+id/rocket_type_tv"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentRight="true"
+                                android:layout_marginLeft="8dp"
+                                android:layout_marginRight="7dp"
+                                android:layout_marginTop="0dp"
+                                android:text=""
+                                android:textColor="@color/black"
+                                android:textAllCaps="true"
+                                android:textSize="@dimen/text_small" />
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp">
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <ImageView
+                                android:id="@+id/youtube_video_iv"
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:layout_margin="10dp" />
+
+
+                            <ImageView
+                                android:layout_width="120dp"
+                                android:layout_height="60dp"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/youtube_image" />
+                        </RelativeLayout>
+
+                    </FrameLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/wiki_ly"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="10dp">
+
+                        <example.jayakumar.deliberr.customviews.F1TextViewSemiBolt
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" find more details at"
+                            android:textSize="@dimen/text_small" />
+
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:src="@drawable/wiki_logo" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

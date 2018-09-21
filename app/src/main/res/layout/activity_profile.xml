@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/cancel_iv"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentLeft="true"
+                android:padding="8dp"
+                android:src="@drawable/cancel" />
+
+
+            <example.jayakumar.deliberr.customviews.CircleImageView
+                android:id="@+id/profile_photo_iv"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="80dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/user_profile" />
+
+        </RelativeLayout>
+
+        <example.jayakumar.deliberr.customviews.F1TextViewBold
+            android:id="@+id/profile_name_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_name_tv"
+            android:padding="5dp"
+            android:text="Amarnath Venkat"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_largex" />
+
+        <example.jayakumar.deliberr.customviews.F1TextViewSemiBolt
+            android:id="@+id/designation_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/profile_name_tv"
+            android:padding="5dp"
+            android:text="Age,25"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_medium" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <example.jayakumar.deliberr.customviews.F1TextViewLight
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GENDER"
+                android:textSize="@dimen/text_smallxx" />
+
+            <example.jayakumar.deliberr.customviews.F1TextViewSemiBolt
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Male"
+                android:textColor="@color/text_primary_grey"
+                android:textSize="@dimen/text_medium" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/divider_moderatelight_grey" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <example.jayakumar.deliberr.customviews.F1TextViewLight
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile Number"
+                android:textSize="@dimen/text_smallxx" />
+
+            <example.jayakumar.deliberr.customviews.F1TextViewSemiBolt
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="9876567777"
+                android:textColor="@color/text_primary_grey"
+                android:textSize="@dimen/text_medium" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/divider_moderatelight_grey" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <example.jayakumar.deliberr.customviews.F1TextViewLight
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="EMAIL"
+                android:textSize="@dimen/text_smallxx" />
+
+            <example.jayakumar.deliberr.customviews.F1TextViewSemiBolt
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="amarnath@gmail.com"
+                android:textColor="@color/text_primary_grey"
+                android:textSize="@dimen/text_medium" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/divider_moderatelight_grey" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:orientation="vertical">
+
+            <example.jayakumar.deliberr.customviews.F1TextViewLight
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Location"
+                android:textSize="@dimen/text_smallxx" />
+
+            <example.jayakumar.deliberr.customviews.F1TextViewSemiBolt
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Bannerghatta Main Rd,\nOLd Gurappanapalya, BTM Layout,\nBengaluru, Karnataka 560029."
+                android:textColor="@color/text_primary_grey"
+                android:textSize="@dimen/text_medium" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/divider_moderatelight_grey" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
